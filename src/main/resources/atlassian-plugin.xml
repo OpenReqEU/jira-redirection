@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<atlassian-plugin key="${atlassian.plugin.key}" name="${project.name}" plugins-version="2">
+  <plugin-info>
+    <description>${project.description}</description>
+    <version>${project.version}</version>
+    <vendor name="${project.organization.name}" url="${project.organization.url}"/>
+    <param name="plugin-icon">images/site-icon.png</param>
+    <param name="plugin-logo">images/web-logo.png</param>
+  </plugin-info>
+  <!-- add our i18n resource -->
+  <resource type="i18n" name="i18n" location="jira-redirection"/>
+  <!-- add our web resources -->
+  <web-resource key="jira-redirection-resources" name="jira-redirection Web Resources">
+    <dependency>com.atlassian.auiplugin:ajs</dependency>
+    <resource type="download" name="jira-redirection.css" location="/css/jira-redirection.css"/>
+    <resource type="download" name="jira-redirection.js" location="/js/jira-redirection.js"/>
+    <resource type="download" name="images/" location="/images"/>
+    <context>jira-redirection</context>
+  </web-resource>
+  <web-panel name="JiraRedirection" i18n-name-key="jira-redirection.name" key="jira-redirection" location="atl.jira.view.issue.left.context" weight="400">
+    <description key="jira-redirection.description">The JiraRedirection Plugin</description>
+    <context-provider class="eu.openreq.qt.JiraRedirection"/>
+    <label key="jira-redirection.title"/>
+    <resource name="view" type="velocity" location="templates/jira-redirection.vm"/>
+  </web-panel>
+</atlassian-plugin>
