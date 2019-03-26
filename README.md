@@ -11,6 +11,9 @@ This jira plugin creates a new section in the View Issue Page that contains a li
 - javax
 - atlassian
 
+### Sources
+None
+
 ### Functionalities of the OpenReq Issue Link Map - Jira Redirection Plugin
 The user gets redirected to the corresponding issue link map
 
