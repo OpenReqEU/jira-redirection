@@ -35,7 +35,7 @@ Click the link.
 Redirects the user to the OpenReq Issue Link Map.
 
 ## Notes for Developers
-In order to use this plugin, the project [qthulhu](https://github.com/OpenReqEU/qthulhu) and all of uh's services have to be deployed and the corresponding parts of the code have to be changed. In this case the link has to be updated.
+In order to use this plugin, the project [qthulhu](https://github.com/OpenReqEU/qthulhu) and all of uh's services have to be deployed and the corresponding parts of the code have to be changed. In this case the link has to be updated in here jira-redirection/src/main/resources/templates/jira-redirection.vm has to be updated accordingly. You also have to configure milla from UH to get your Jira data, and then qthulhu has to be updated to fetch the data from the correct source.
 
 ## How to contribute
 See [OpenReq project contribution guidelines](https://github.com/OpenReqEU/OpenReq/blob/master/CONTRIBUTING.md). 
