@@ -1,5 +1,7 @@
 # OpenReq Issue Link Map - Jira Redirection Plugin
 
+This web application was created as a result of the OpenReq project funded by the European Union Horizon 2020 Research and Innovation programme under grant agreement No 732463.
+
 This jira plugin creates a new section in the View Issue Page that contains a link which redirects the user to the corresponding issue link map in the OpenReq Issue Link Map. 
 
 ## Technical description
@@ -31,6 +33,9 @@ Click the link.
 
 #### What does this application do?
 Redirects the user to the OpenReq Issue Link Map.
+
+## Notes for Developers
+In order to use this plugin, the project [qthulhu](https://github.com/OpenReqEU/qthulhu) and all of uh's services have to be deployed and the corresponding parts of the code have to be changed. 
 
 ## How to contribute
 See [OpenReq project contribution guidelines](https://github.com/OpenReqEU/OpenReq/blob/master/CONTRIBUTING.md). 
