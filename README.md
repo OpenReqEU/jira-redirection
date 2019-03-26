@@ -35,7 +35,7 @@ Click the link.
 Redirects the user to the OpenReq Issue Link Map.
 
 ## Notes for Developers
-In order to use this plugin, the project [qthulhu](https://github.com/OpenReqEU/qthulhu) and all of uh's services have to be deployed and the corresponding parts of the code have to be changed. 
+In order to use this plugin, the project [qthulhu](https://github.com/OpenReqEU/qthulhu) and all of uh's services have to be deployed and the corresponding parts of the code have to be changed. In this case the link has to be updated.
 
 ## How to contribute
 See [OpenReq project contribution guidelines](https://github.com/OpenReqEU/OpenReq/blob/master/CONTRIBUTING.md). 
