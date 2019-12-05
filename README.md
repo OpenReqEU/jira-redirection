@@ -1,5 +1,7 @@
 # OpenReq Issue Link Map - Jira Redirection Plugin
 
+This repository is no longer maintained. This repository is archived for parties interested in the standalone functionality that this repo once offered. Now, the functionality has been moved to [OpenReq Issue Link Map](https://github.com/OpenReqEU/issuelinkmap-jira-plugin). For full details of capability and intended usage, please see [OpenReq Issue Link Map](https://github.com/OpenReqEU/issuelinkmap-jira-plugin).
+
 This jira plugin was created as a result of the OpenReq project funded by the European Union Horizon 2020 Research and Innovation programme under grant agreement No 732463.
 
 This jira plugin creates a new section in the View Issue Page that contains a link which redirects the user to the corresponding issue link map in the OpenReq Issue Link Map. In order for this to work, UH's services need to be deployed. To use the services in a different jira than Qt's jira, UH's services need to be adapted, otherwise there will be erros. Then inside the OpenReq Issue Link Map the endpoints to access the data need to be changed, as well as the adress in this plug-in to refer to the correct location of the OpenReq Issue Link Map.
